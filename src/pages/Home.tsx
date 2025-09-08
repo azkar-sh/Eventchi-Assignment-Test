@@ -21,16 +21,23 @@ export default function Home() {
               Discover Digital Art & Collect NFTs
             </h1>
             <p className="max-w-prose text-zinc-300">
-              NFT marketplace UI created for demo. Explore, collect, and trade from creators worldwide.
+              NFT marketplace UI created for demo. Explore, collect, and trade from creators
+              worldwide.
             </p>
             <div className="flex flex-wrap gap-3">
               <Button>👀 Get Started</Button>
               <Button variant="ghost">🎬 Watch Tutorial</Button>
             </div>
             <div className="mt-2 grid grid-cols-3 gap-3 text-sm text-zinc-300">
-              <div><span className="block text-xl font-bold text-white">240k+</span>Total Sale</div>
-              <div><span className="block text-xl font-bold text-white">100k+</span>Auctions</div>
-              <div><span className="block text-xl font-bold text-white">240k+</span>Artists</div>
+              <div>
+                <span className="block text-xl font-bold text-white">240k+</span>Total Sale
+              </div>
+              <div>
+                <span className="block text-xl font-bold text-white">100k+</span>Auctions
+              </div>
+              <div>
+                <span className="block text-xl font-bold text-white">240k+</span>Artists
+              </div>
             </div>
           </div>
           <Card className="p-0">
@@ -57,14 +64,16 @@ export default function Home() {
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {trendingData.collections.map((c, i) => (
             <Card key={i}>
-              <Placeholder tone={c.thumb.split(':')[1]} className="aspect-square rounded-lg" />
+              <Placeholder tone={c.thumbs[0].split(':')[1]} className="aspect-square rounded-lg" />
               <div className="mt-3">
                 <div className="font-semibold text-white">{c.title}</div>
                 <div className="mt-2 flex items-center justify-between text-sm">
                   <span className="text-zinc-400">{c.creator}</span>
                   <span className="rounded-lg bg-zinc-800 px-2 py-1 text-zinc-200">{c.items}+</span>
                 </div>
-                <div className="mt-2 text-xs text-zinc-400">Floor: <span className="text-white">{c.floor} ETH</span></div>
+                <div className="mt-2 text-xs text-zinc-400">
+                  Floor: <span className="text-white">{c.floor} ETH</span>
+                </div>
               </div>
             </Card>
           ))}
@@ -83,7 +92,9 @@ export default function Home() {
               <Avatar seed={p.name} />
               <div>
                 <div className="text-sm font-medium text-white">{p.name}</div>
-                <div className="text-xs text-zinc-400">Total Sales: <span className="text-white">{p.sales} ETH</span></div>
+                <div className="text-xs text-zinc-400">
+                  Total Sales: <span className="text-white">{p.sales} ETH</span>
+                </div>
               </div>
             </Card>
           ))}
@@ -124,7 +135,9 @@ export default function Home() {
                 </div>
                 <Badge>Price: {n.price} ETH</Badge>
               </div>
-              <div className="mt-2 text-xs text-zinc-400">Highest Bid: <span className="text-white">{n.highestBid} wETH</span></div>
+              <div className="mt-2 text-xs text-zinc-400">
+                Highest Bid: <span className="text-white">{n.highestBid} wETH</span>
+              </div>
               <div className="mt-3">
                 <Button className="w-full">Place Bid</Button>
               </div>
@@ -137,10 +150,19 @@ export default function Home() {
       <Section title="How It Works" subtitle="Three easy steps to get started.">
         <div className="grid gap-4 sm:grid-cols-3">
           {[
-            {title:'Setup Your Wallet', desc:'Connect your wallet to start exploring and collecting NFTs.'},
-            {title:'Create Collection', desc:'Upload your work and set up your first collection and price.'},
-            {title:'Start Earning', desc:'List your NFTs and start earning by selling to the community.'},
-          ].map((s,i)=>(
+            {
+              title: 'Setup Your Wallet',
+              desc: 'Connect your wallet to start exploring and collecting NFTs.',
+            },
+            {
+              title: 'Create Collection',
+              desc: 'Upload your work and set up your first collection and price.',
+            },
+            {
+              title: 'Start Earning',
+              desc: 'List your NFTs and start earning by selling to the community.',
+            },
+          ].map((s, i) => (
             <Card key={i} className="text-center">
               <div className="mx-auto mb-3 h-16 w-16">
                 <Placeholder className="h-16 w-16 rounded-full" />
@@ -153,14 +175,20 @@ export default function Home() {
       </Section>
 
       {/* NEWSLETTER */}
-      <Section title="Join Our Weekly Digest" subtitle="Get exclusive promotions & updates straight to your inbox.">
+      <Section
+        title="Join Our Weekly Digest"
+        subtitle="Get exclusive promotions & updates straight to your inbox."
+      >
         <Card className="flex flex-col items-center gap-3 p-6 sm:flex-row sm:justify-between">
           <div className="text-center sm:text-left">
             <div className="text-white">Stay in the loop</div>
             <div className="text-sm text-zinc-400">We’ll send you the best picks once a week.</div>
           </div>
           <form className="flex w-full max-w-md gap-2">
-            <input placeholder="Enter your email" className="flex-1 rounded-xl border border-zinc-700 bg-zinc-800/60 px-3 py-2 text-sm text-white placeholder:text-zinc-400 outline-none focus:ring-2 focus:ring-violet-600"/>
+            <input
+              placeholder="Enter your email"
+              className="flex-1 rounded-xl border border-zinc-700 bg-zinc-800/60 px-3 py-2 text-sm text-white placeholder:text-zinc-400 outline-none focus:ring-2 focus:ring-violet-600"
+            />
             <Button type="submit">Subscribe</Button>
           </form>
         </Card>
