@@ -1,0 +1,46 @@
+{
+  "nfts": [
+    {
+      "title": "Distant Galaxy",
+      "creator": "SpaceOne",
+      "price": 1.85,
+      "highestBid": 0.35,
+      "thumb": "gradient:indigo"
+    },
+    {
+      "title": "Life On Edena",
+      "creator": "MetaSkull",
+      "price": 2.25,
+      "highestBid": 0.42,
+      "thumb": "gradient:sky"
+    },
+    {
+      "title": "Astrofiction",
+      "creator": "VR Sunshine",
+      "price": 3.2,
+      "highestBid": 0.62,
+      "thumb": "gradient:purple"
+    },
+    {
+      "title": "Distant Galaxy",
+      "creator": "SpaceOne",
+      "price": 1.85,
+      "highestBid": 0.35,
+      "thumb": "gradient:indigo"
+    },
+    {
+      "title": "Life On Edena",
+      "creator": "MetaSkull",
+      "price": 2.25,
+      "highestBid": 0.42,
+      "thumb": "gradient:sky"
+    },
+    {
+      "title": "Astrofiction",
+      "creator": "VR Sunshine",
+      "price": 3.2,
+      "highestBid": 0.62,
+      "thumb": "gradient:purple"
+    }
+  ]
+}

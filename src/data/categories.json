@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "name": "Art",
+      "icon": "\ud83c\udfa8",
+      "thumb": "gradient:rose"
+    },
+    {
+      "name": "Collectibles",
+      "icon": "\ud83e\udde9",
+      "thumb": "gradient:amber"
+    },
+    {
+      "name": "Music",
+      "icon": "\ud83c\udfb5",
+      "thumb": "gradient:violet"
+    },
+    {
+      "name": "Photography",
+      "icon": "\ud83d\udcf7",
+      "thumb": "gradient:cyan"
+    },
+    {
+      "name": "Video",
+      "icon": "\ud83d\udcf9",
+      "thumb": "gradient:emerald"
+    },
+    {
+      "name": "Utility",
+      "icon": "\ud83d\udee0\ufe0f",
+      "thumb": "gradient:blue"
+    },
+    {
+      "name": "Sport",
+      "icon": "\ud83c\udfc0",
+      "thumb": "gradient:yellow"
+    },
+    {
+      "name": "Virtual Worlds",
+      "icon": "\ud83e\ude90",
+      "thumb": "gradient:indigo"
+    }
+  ]
+}

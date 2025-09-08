@@ -1,0 +1,96 @@
+@import 'tailwindcss';
+
+@import 'tailwindcss';
+
+/* ============ Montserrat (Variable) ============ */
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/src/assets/font/work_sans/WorkSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* rentang weight */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/src/assets/font/work_sans/WorkSans-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ============ Space Mono (Static) ============ */
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/src/assets/font/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/src/assets/font/Space_Mono/SpaceMono-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/src/assets/font/Space_Mono/SpaceMono-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/src/assets/font/Space_Mono/SpaceMono-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: 'Work Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Space Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+:root {
+  font-family: var(--font-sans);
+}
+
+.button-primary {
+  @apply bg-[#A259FF] text-white hover:bg-violet-700 cursor-pointer disabled:cursor-not-allowed;
+}
+
+.button-outline {
+  @apply bg-transparent text-white hover:opacity-50 border border-[#A259FF] cursor-pointer rounded-xl px-4 py-2 disabled:cursor-not-allowed;
+}
+
+/* ===== Utilities ===== */
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.full-bleed {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding-left: max(1rem, calc(50vw - 50%));
+  padding-right: max(1rem, calc(50vw - 50%));
+}
+
+.bleed-left {
+  margin-left: calc(50% - 50vw);
+}
+
+.drag-scroll {
+  cursor: grab;
+  user-select: none;
+}
+.drag-scroll.dragging {
+  cursor: grabbing;
+}

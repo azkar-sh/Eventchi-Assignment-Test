@@ -1,0 +1,64 @@
+{
+  "topCreators": [
+    {
+      "name": "KeepItReal",
+      "sales": 34.6,
+      "avatar": "avatar:1"
+    },
+    {
+      "name": "DigiLab",
+      "sales": 32.1,
+      "avatar": "avatar:2"
+    },
+    {
+      "name": "GravityOne",
+      "sales": 29.4,
+      "avatar": "avatar:3"
+    },
+    {
+      "name": "Juanie",
+      "sales": 28.9,
+      "avatar": "avatar:4"
+    },
+    {
+      "name": "BlueWhale",
+      "sales": 27.1,
+      "avatar": "avatar:5"
+    },
+    {
+      "name": "Mr. Fox",
+      "sales": 26.0,
+      "avatar": "avatar:6"
+    },
+    {
+      "name": "Shroomie",
+      "sales": 25.2,
+      "avatar": "avatar:7"
+    },
+    {
+      "name": "Robotica",
+      "sales": 23.5,
+      "avatar": "avatar:8"
+    },
+    {
+      "name": "RustyRobot",
+      "sales": 22.2,
+      "avatar": "avatar:9"
+    },
+    {
+      "name": "Animakid",
+      "sales": 21.7,
+      "avatar": "avatar:10"
+    },
+    {
+      "name": "Dotya",
+      "sales": 21.4,
+      "avatar": "avatar:11"
+    },
+    {
+      "name": "Chibilier",
+      "sales": 20.6,
+      "avatar": "avatar:12"
+    }
+  ]
+}

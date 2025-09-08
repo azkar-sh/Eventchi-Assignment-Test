@@ -1,0 +1,28 @@
+{
+  "collections": [
+    {
+      "title": "DGGN Animals",
+      "floor": 1.02,
+      "items": 1025,
+      "creator": "MrFox",
+      "coverKey": "dog_walking",
+      "thumbs": ["cat_headphones", "dog_walking", "space_walking"]
+    },
+    {
+      "title": "Magic Mushrooms",
+      "floor": 0.98,
+      "items": 1680,
+      "creator": "Shroomie",
+      "coverKey": "mushroom",
+      "thumbs": ["mushroom", "space_walking", "cat_headphones"]
+    },
+    {
+      "title": "Disco Machines",
+      "floor": 1.25,
+      "items": 1002,
+      "creator": "BeKind2Robots",
+      "coverKey": "robot_skater",
+      "thumbs": ["robot_skater", "space_walking", "dog_walking"]
+    }
+  ]
+}
